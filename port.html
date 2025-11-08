@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gulshan Kumar | Frontend Developer</title>
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="port.css" />
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+  <!-- JavaScript -->
+  <script defer src="port.js"></script>
+</head>
+<body>
+  <!-- Header Section -->
+  <header class="header">
+    <div class="left">
+      <div class="logo">
+        <img src="logo.png" alt="GK Logo" />
+      </div>
+    </div>
+
+    <nav class="navbar center">
+      <a href="#home">Home</a>
+      <a href="#about">About Me</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="right">
+      <button id="theme-toggle">🌙</button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="page hero" id="home">
+    <div class="hero-content">
+      <div class="intro">
+        <h1>Hello, I'm <span>Gulshan Kumar</span></h1>
+        <p>CREATIVE FRONT-END WEB DEVELOPER</p>
+        <a href="#" class="btn">Download Resume</a>
+        <div class="icons">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-codepen"></i></a>
+        </div>
+      </div>
+      <div class="image-side">
+        <img src="gulshan.png" alt="Gulshan Kumar" />
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="page about-container" id="about">
+    <h1 class="title">About Me</h1>
+    <div class="card-container">
+      <div class="card zoom">
+        <h2> <a href="about.html">👨‍💻 Who am I?</h2></a>
+        <p>Hi! I’m <strong>Gulshan Kumar</strong>, a frontend developer who loves crafting animated, user-friendly web interfaces that blend functionality with creativity.</p>
+         </div>
+      <div class="card zoom">
+        <h2>🚀 My Mission</h2>
+        <p>To create beautiful digital experiences with clean code, creative design, and modern technologies like JavaScript, React, and Tailwind CSS.</p>
+      </div>
+      <div class="card zoom">
+        <h2>🛠️ Skills</h2>
+        <p>HTML, CSS, JavaScript, React, Node.js, SQL, Power BI, MySQL, Tailwind, Git, Responsive Design, and more.</p>
+      </div>
+      <div class="card zoom">
+        <h2>💡 Goals</h2>
+        <p>I aim to become a full-stack developer and contribute to real-world impactful web projects and AI-based solutions.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="page projects-section" id="projects">
+    <h1 class="title">My Projects</h1>
+    <div class="project-card zoom">
+      <h2>🍽️ Bihar Bite (Food Delivery Website)</h2>
+      <p>A regional food delivery platform specializing in <strong>Litti Chokha</strong> and traditional Bihari food. Features include dynamic menu, order tracking, cart, responsive UI, and local flavor branding.</p>
+      <ul>
+        <li>Tech: HTML, CSS, JS, Firebase</li>
+        <li>Features: Green-yellow theme, responsive cards, category filters</li>
+        <li>Role: UI designer and frontend developer</li>
+      </ul>
+      <a class="btn" href="https://github.com/yourname/bihar-bite" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="project-card zoom">
+      <h2>🧠 AI Personalized Educator</h2>
+      <p>An AI-powered web mentor that adapts content delivery for students based on their learning behavior. Built using the MERN stack + ML integration for feedback adaptation.</p>
+      <ul>
+        <li>Tech: React.js, Node.js, MongoDB, Express, TensorFlow</li>
+        <li>Features: Live quiz, topic recommendation, dashboard</li>
+        <li>Role: System architecture, UI/UX</li>
+      </ul>
+      <a class="btn" href="https://github.com/yourname/ai-mentor" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="project-card zoom">
+      <h2>🛍️ Bhamart (E-commerce Platform)</h2>
+      <p>A basic e-commerce prototype with product catalog, search functionality, cart, and checkout. Focused on ease-of-use for Tier 2 users and optimized for mobile access.</p>
+      <ul>
+        <li>Tech: HTML, CSS, JavaScript, LocalStorage</li>
+        <li>Features: Product filter, wishlist, cart-persistence</li>
+        <li>Role: UI dev, cart logic</li>
+      </ul>
+      <a class="btn" href="https://github.com/yourname/bhamart" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="project-card zoom">
+      <h2>📚 Library Management System</h2>
+      <p>Built for college use to manage books, students, returns, and fines. Admin interface includes reports and export tools, built with PostgreSQL + Bootstrap for responsive design.</p>
+      <ul>
+        <li>Tech: Node.js, PostgreSQL, EJS, Bootstrap</li>
+        <li>Features: Auto reminders, fine calculation, user history</li>
+        <li>Role: Database design and integration</li>
+      </ul>
+      <a class="btn" href="https://github.com/yourname/library-system" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="project-card zoom">
+      <h2>💬 ChatBOOK - Friend Chat Platform</h2>
+      <p>A minimalist chat web app inspired by WhatsApp. Allows real-time chat using Firebase Realtime DB, emoji reactions, typing indicator, and chat groups.</p>
+      <ul>
+        <li>Tech: HTML, JS, Firebase</li>
+        <li>Features: Realtime sync, emojis, mobile responsive</li>
+        <li>Role: Complete frontend</li>
+      </ul>
+      <a class="btn" href="https://github.com/gulshan/chatbook" target="_blank">GitHub ↗</a>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="page hero-contact" id="contact">
+    <h1 class="hero-title">📬 Let's Connect, I'm Listening 👂</h1>
+    <p class="hero-sub">Have an idea, offer, or just wanna say hi? Send me a virtual hug 🤗</p>
+    <a href="mailto:gk580440@gmail.com" class="cta-btn">📩 Drop me a message</a>
+  </section>
+
+  <!-- Inquiry Section -->
+  <section class="page inquiry-section">
+    <div class="inquiry-left">
+      <img src="std.png" alt="Student" class="rounded-img" />
+    </div>
+    <div class="inquiry-form-box">
+      <h2>📥 Quick Inquiry</h2>
+      <form id="inquiry-form">
+        <input type="text" placeholder="Your Full Name" required />
+        <input type="email" placeholder="Email Address" required />
+        <textarea placeholder="Tell me how I can help you..." rows="4" required></textarea>
+        <button type="submit">Send Inquiry ✉️</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-columns">
+      <div>
+        <h4>General</h4>
+        <a href="#home">Home</a>
+        <a href="#projects">Projects</a>
+      </div>
+      <div>
+        <h4>Resources</h4>
+        <a href="#">Blog (Coming Soon)</a>
+        <a href="#">Resume</a>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <a href="mailto:gk580440@gmail.com">gk580440@gmail.com</a>
+        <a href="tel:+917633811302">+91 7633811302</a>
+      </div>
+      <div>
+        
+      </div>
+      
+    </div>
+  </footer>
+  <!-- Bottom Follow Me Footer -->
+<div class="bottom-footer">
+  <div class="bottom-footer-content">
+    <div class="bottom-logo-social">
+      <img src="logo.png" alt="Logo" class="bottom-logo" />
+      <span class="footer-brand">Follow Me</span>
+      <div class="footer-social-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-x-twitter"></i></a>
+        <a href="#"><i class="fab fa-pinterest-p"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-tiktok"></i></a>
+      </div>
+    </div>
+    <div class="bottom-rights">
+      © 2025 Gulshan Kumar. All rights reserved • 
+      <a href="#">Terms of Use</a> | 
+      <a href="#">Privacy Policy</a>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
